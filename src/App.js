@@ -9,7 +9,7 @@ import Lightbox from "./components/Lightbox";
 
 function App() {
   const [products] = useState(data);
-  const [value, setValue] = useState(1);
+  const [value, setValue] = useState(0);
   const [amount, setAmount] = useState(0);
   const [slideIndex, setSlideIndex] = useState(1);
   const [showLightbox, setShowLightbox] = useState(false);
